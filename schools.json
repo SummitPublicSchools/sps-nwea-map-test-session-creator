@@ -1,0 +1,12 @@
+{
+    "everest": {"option_value": 1040, "grades": [9, 10]},
+    "prep": {"option_value": 1039, "grades": [9, 10]},
+    "denali": {"option_value": 16541, "grades": [6, 7, 8, 9]},
+    "k2": {"option_value": 28588, "grades": [7, 8, 9]},
+    "olympus": {"option_value": 42492, "grades": [9, 10]},
+    "rainier": {"option_value": 1042, "grades": [9, 10]},
+    "shasta": {"option_value": 16540, "grades": [9, 10]},
+    "sierra": {"option_value": 37482, "grades": [9, 10]},
+    "tahoma": {"option_value": 1041, "grades": [9, 10]},
+    "tamalpais": {"option_value": 51503, "grades": [7]}
+  }
