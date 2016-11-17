@@ -1,7 +1,6 @@
-![Logo of the project](https://raw.githubusercontent.com/jehna/readme-best-practices/master/sample-logo.png)
+![Logo of the project](https://github.com/SummitPublicSchools/sps-nwea-map-test-session-creator/blob/master/img/map_creator_logo_small.png)
 
 # SPS NWEA MAP Test Session Creator
-> Additional information or tagline
 
 This is a fairly straight-forward tool built in Python on the simple
 sps-automation library that uses Selenium is used in order to create NWEA MAP
@@ -11,6 +10,7 @@ grade.
 ## Installing / Getting started
 
 To use this project, complete the following steps:
+
 1. Download or clone the project to your computer.
 2. Use pip to install the following dependencies:
   * psycopg2
@@ -21,6 +21,7 @@ To use this project, complete the following steps:
 the option codes in the HTML associated with each school. More on this below.
 5. Run the script!
 
+Simple shell example for running the script:
 ```shell
 git clone https://github.com/SummitPublicSchools/sps-nwea-map-test-session-creator
 cd sps-nwea-map-test-session-creator/
@@ -29,8 +30,7 @@ python create_map_testing_sessions.py
 
 ## Developing
 
-Here's a brief intro about what a developer must do in order to start developing
-the project further:
+To develop the project further, just clone the repository and start editing. Most of what needs to be edited is in the create_map_test_sessions.py file.
 
 ```shell
 git clone https://github.com/SummitPublicSchools/sps-nwea-map-test-session-creator
@@ -64,6 +64,7 @@ selections on the back end by indicating the user's choice with some sort of
 (usually numeric) option value. To have Selenium correctly select the options
 you want, you need to make sure that you have input the correct option values into
 the config.ini and schools.json files. To do this, take the following steps:
+
 1. Log in to the NWEA admin interface using Chrome or Firefox
 2. Find the dropdown for which you need option values. Right click it and select
 'Inspect' or similar. This will open the developers console and highlight the
@@ -79,7 +80,7 @@ You will need to find option values for the following dropdown menus:
   * Test Name
 
 See the GIF below for an example of finding the option value for a school.
-
+![dropdown option value select example](https://github.com/SummitPublicSchools/sps-nwea-map-test-session-creator/blob/master/img/drop_down_option_code_example.gif)
 
 #### config.ini
 The following provides more information about the settings in the different config.ini file sections.
