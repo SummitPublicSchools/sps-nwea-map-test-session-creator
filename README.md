@@ -16,7 +16,7 @@ To use this project, complete the following steps:
   * psycopg2
   * bs4
   * selenium
-3. Edit the `config-default.ini` file to include your own settings. Rename it to `config.ini`.
+3. Edit the `config_template.ini` file to include your own settings. Rename it to `config.ini`.
 4. Edit the `schools.json` file to include the grades tested at the school and
 the option codes in the HTML associated with each school. More on this below.
 5. Run the script!
